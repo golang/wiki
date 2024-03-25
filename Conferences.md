@@ -18,6 +18,7 @@ The map will be updated about once a week from the entries below. Errors in the 
 | GopherDay Taiwan | 2024-05-25 | Taipei, Taiwan | https://gopherday.golang.tw/2024/ | https://gopherday.golang.tw/2024/cfp |
 | GopherCon EU, Berlin | 2024-06-17-20 | Berlin, Germany | https://gophercon.eu/ | https://sessionize.com/gceu24b |
 | Golang Conf | 2024-06-24-25 | St. Petersburg, Russia | https://golangconf.ru/ | https://cfp.golangconf.ru/en |
+| GopherCon | 2024-07-07-10 | Chicago | https://www.gophercon.com/ | https://sessionize.com/gophercon-2024/ |
 
 ## Archives
 
