@@ -12,17 +12,13 @@ The map will be updated about once a week from the entries below. Errors in the 
 
 | Name |  Date | Location | Website | CFP |
 | --- | --- | --- | --- | --- |
-| FOSDEM | 2024-02-03-04 | Brussels, Belgium | https://fosdem.org/2024/ | Go Devroom CFP https://github.com/go-devroom/cfp |
-| GopherCon EU, Athens | 2024-02-06-08 | Athens, Greece | https://gophercon.eu/ | https://sessionize.com/gceu24a |
-| Conf42 Golang | 2024-04-25 | Online | https://www.conf42.com/golang2024 | https://www.papercall.io/conf42-golang-2024 |
-| GopherCon Brazil | 2024-05-09-10 | Florianópolis, SC, Brazil | https://gopherconbr.org/en/ | https://www.papercall.io/gopherconbrazil2024 |
-| GopherDay Taiwan | 2024-05-25 | Taipei, Taiwan | https://gopherday.golang.tw/2024/ | https://gopherday.golang.tw/2024/cfp |
-| Go Conference Japan | 2024-06-08 | Tokyo, Japan | https://gocon.jp | https://sessionize.com/go-conference-2024/ |
-| GopherCon EU, Berlin | 2024-06-17-20 | Berlin, Germany | https://gophercon.eu/ | https://sessionize.com/gceu24b |
 | Golang Conf | 2024-06-24-25 | St. Petersburg, Russia | https://golangconf.ru/ | https://cfp.golangconf.ru/en |
+| GopherCon | 2024-07-07-10 | Chicago, USA | https://www.gophercon.com/ | |
 | GopherCon UK | 2024-08-14-16 | London, UK | https://www.gophercon.co.uk/ | https://sessionize.com/gophercon-uk-2024/ |
 | GopherCon Israel | 2024-09-09 | Tel Aviv, Israel | https://www.gophercon.org.il/ | https://sessionize.com/gophercon-israel-2024/ |
-| Golab | 2024-11-11-13 | Florence, Italy | https://golab.io | https://sessionize.com/golab-2024 |
+| Fyne Conf 2024 | 2024-09-20 | Berlin, Germany | https://conf.fyne.io | https://www.papercall.io/fyneconf2024 |
+| GoWest | 2024-10-25 | Lehi, Utah, USA | https://www.gowestconf.com/ | https://forgeutah.app.vasion.com/capture/forms/form-viewer/4b216cb4-f048-11ee-ae50-02f856bfedf7/anon |
+| GoLab | 2024-11-11-13 | Florence, Italy | https://golab.io | https://sessionize.com/golab-2024 |
 
 ## Archives
 
@@ -30,6 +26,13 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives |
 |------|------------|----------|----------------|
+| GopherCon EU, Berlin | 2024-06-17-20 | Berlin, Germany | https://gophercon.eu/ |
+| Go Conference Japan | 2024-06-08 | Tokyo, Japan | https://gocon.jp |
+| GopherDay Taiwan | 2024-05-25 | Taipei, Taiwan | https://gopherday.golang.tw/2024/ |
+| GopherCon Brazil | 2024-05-09-10 | Florianópolis, SC, Brazil | https://gopherconbr.org/en/ |
+| Conf42 Golang 2024 | 2024-04-25 | Online | https://www.conf42.com/golang2024 |
+| GopherCon EU, Athens | 2024-02-06-08 | Athens, Greece | https://gophercon.eu/ |
+| FOSDEM | 2024-02-03-04 | Brussels, Belgium | https://fosdem.org/2024/schedule/track/go/ |
 | GoLab | 2023-11-19-21 | Florence, Italy | https://golab.io |
 | GopherChina | 2023-11-19 | ShangHai, China | http://gopherchina2023sh.bagevent.com |
 | GopherCon AU 2023 | 2023-11-08-10 | Sydney, Australia | https://gophercon.com.au/ |
@@ -117,7 +120,7 @@ Please keep all items in reverse chronological order (most recent first)
 | Gopherpalooza 2018 | 2018-10-12 | San Francisco, CA | http://gopherpalooza.com/ |
 | Go Stockholm Conference | 2018-10-06 | Stockholm, Sweden | https://www.eventbrite.com/e/go-stockholm-conference-tickets-49325007425 |
 | GoWayFest 2.0 | 2018-09-28 | Minsk, Belarus | https://goway.io |
-| GopherCon Brasil 2018 | 2018-09-27-29 | Florianópolis, Brazil | https://2018.gopherconbr.org/en<br>CFP https://www.papercall.io/gopherconbrasil2018 |
+| GopherCon Brasil 2018 | 2018-09-27-29 | Florianópolis, Brazil | https://gopherconbr.org/en/ |
 | GopherCon Denver 2018 | 2018-08-27-30 | Denver, CO | https://www.gophercon.com/<br>Talks: https://www.youtube.com/playlist?list=PL2ntRZ1ySWBdatAqf-2_125H4sGzaWngM<br>Lightning Talks: https://www.youtube.com/playlist?list=PL2ntRZ1ySWBdMEZScpaoRX-vyt6pRUvfM |
 | GopherCon UK 2018 | 2018-08-01-03 | London, UK | https://www.gophercon.co.uk/ |
 | Go Northwest 2018 | 2018-07-30 | Seattle, WA, USA | http://gonorthwest.io/ |
