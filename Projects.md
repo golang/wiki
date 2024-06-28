@@ -1011,6 +1011,7 @@ See also [SQLDrivers page](SQLDrivers).
   * [gortlsdr](https://github.com/jpoirier/gortlsdr) - A librtlsdr wrapper, which turns certain USB DVB-T dongles into a low-cost, general purpose software-defined radio receiver.
   * [hwio](https://github.com/mrmorphic/hwio) - Hardware I/O library for SoC boards including BeagleBone Black and Raspberry Pi.
   * [stressdisk](https://github.com/ncw/stressdisk) - Stress test your disks / memory cards / USB sticks before trusting your valuable data to them
+  * [go-idot](https://github.com/nj-designs/go-idot) - Go library & CLI to control iDotMatrix displays
 
 ### Language and Linguistics
 
@@ -2043,4 +2044,3 @@ The following entries have not been filed. Please help by putting these in relev
   * [Tasks](https://github.com/thewhitetulip/Tasks) - A simplistic todo list manager written in Go
   * [Twackup](https://github.com/tv42/twackup) - Backs up your tweets into local files
   * [al-Go-rithms](https://github.com/addy1997/al-Go-rithms) - Collection of algorithms on arrays, runes, strings for reference purpose.
-
