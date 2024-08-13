@@ -31,7 +31,7 @@ page.
 
 > If you are on Windows, we suggest to follow this tutorial using a BASH emulation system such as Git Bash. 
 
-> For Go 1.23 and earlier, the wasm support files needed in this article are located in `misc/wasm`, and path should be replaced when performing operations with files such as `lib/wasm/wasm_exec.js`.
+> For Go 1.23 and earlier, the wasm support files needed in this article are located in `misc/wasm`, and the path should be replaced when performing operations with files such as `lib/wasm/wasm_exec.js`.
 
 To compile a basic Go package for the web:
 
