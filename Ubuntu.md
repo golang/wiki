@@ -15,7 +15,8 @@ If you're using Ubuntu 18.04, 20.04 or 22.04 (amd64, arm64 or armhf), then you c
 ```
 sudo add-apt-repository ppa:longsleep/golang-backports
 sudo apt update
-sudo apt install golang-go
+sudo apt-get install software-properties-common -y
+sudo apt install golang-go -y
 ```
 
 > **Note that `golang-go` installs latest Go as default Go. If you do not want that, install `golang-1.22` instead and use the binaries from `/usr/lib/go-1.22/bin`.**
