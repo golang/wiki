@@ -12,7 +12,7 @@ The map will be updated about once a week from the entries below. Errors in the 
 
 | Name |  Date | Location | Website | CFP |
 | --- | --- | --- | --- | --- |
-| GoKonf Istanbul | 2024-11-23 | Istanbul, Türkiye | https://gokonf.com/ | https://kommunity.com/istanbul-gophers/events/sipay-gokonf-2024-b1e90b2d/cfp/ |
+| GopherCon | 2025-08-26-28 | New York City, NY USA | https://www.gophercon.com/ | https://sessionize.com/gophercon-2025/ |
 
 ## Archives
 
@@ -20,6 +20,7 @@ Please keep all items in reverse chronological order (most recent first)
 
 | Name | Date | Location | Talk, Video Archives |
 |------|------------|----------|----------------|
+| GoKonf Istanbul | 2024-11-23 | Istanbul, Türkiye | https://gokonf.com/ | https://kommunity.com/istanbul-gophers/events/sipay-gokonf-2024-b1e90b2d/cfp/ |
 | Golab | 2024-11-11-13 | Florence, Italy | https://golab.io | https://sessionize.com/golab-2024 |
 | GopherCon Israel | 2024-09-09 | Tel Aviv, Israel | https://www.gophercon.org.il/ | https://sessionize.com/gophercon-israel-2024/ |
 | GopherCon UK | 2024-08-14-16 | London, UK | https://www.gophercon.co.uk/ | https://sessionize.com/gophercon-uk-2024/ |
