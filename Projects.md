@@ -1151,6 +1151,7 @@ See also [SQLDrivers page](SQLDrivers).
   * [atexit](https://bitbucket.org/tebeka/atexit) - Simple atexit library
   * [bíogo](https://github.com/biogo/biogo) - Basic bioinformatics functions for the Go language.
   * [Breaker](https://github.com/matttproud/golang_circuitbreaker) - Breaker enables graceful degraded mode operations by means of wrapping unreliable interservice interface points with circuit breaker primitives.
+  * [Circuit Breaker](https://github.com/gozephyr/cbreak) -  cbreak is a lightweight, configurable, and thread-safe circuit breaker library for Golang. It helps prevent cascading failures and improves system resilience by managing request flow to failing services with precision and observability.
   * [btcrpcclient](https://github.com/btcsuite/btcrpcclient) - A Websocket-enabled Bitcoin JSON-RPC client.
   * [cast](https://github.com/spf13/cast) - Safe and easy casting from one type to another in Go
   * [CGRates](https://github.com/cgrates/cgrates) - Rating system designed to be used in telecom carriers world
