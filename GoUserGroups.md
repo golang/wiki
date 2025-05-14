@@ -158,6 +158,7 @@ title: GoUserGroups
 ### Dominican Republic
 
   * [Golang Dominicana](https://www.facebook.com/groups/golangdominicana) - República Dominicana.
+  * [Code The Go Way - Telegram](https://t.me/+3KBHRY3O4PI5NTIx) - Santiago de los Caballeros, República Dominicana.
 
 ### Latin America
 
