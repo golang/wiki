@@ -183,6 +183,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [autoflags](https://github.com/artyom/autoflags) - Populate go command line app flags from config struct
   * [carapace](https://github.com/rsteube/carapace) - Command argument completion generator for spf13/cobra.
   * [charli](https://github.com/starriver/charli) - Small, procedural, zero-reflection CLI toolkit with help & completions.
+  * [claptrap](https://sr.ht/~ser/claptrap/) - A featureful but small getopt-ish flags library in a single file and no external dependencies. Optional complementary libraries add config file support, man page generation, 12-factor, and autocomplete.
   * [cobra](http://github.com/spf13/cobra) - A commander for modern go CLI interactions supporting commands & POSIX/GNU flags
   * [cli](https://github.com/mitchellh/cli) - A Go library for implementing command-line interfaces.
   * [cmdline](https://github.com/galdor/go-cmdline) - A simple parser with support for short and long options, default values, arguments and subcommands.
@@ -219,6 +220,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [dasel](https://github.com/tomwright/dasel) - Query and update data structures using selectors from the command line. Comparable to [jq](https://github.com/stedlan/jq) / [yq](https://github.com/kislyuk/yq) but supports JSON, YAML, TOML and XML with zero runtime dependencies.
   * [DevTodo2](https://github.com/alecthomas/devtodo2) - A small command-line per-project task list manager.
   * [dsio](https://github.com/nshmura/dsio) - Command line tool for Google Cloud Datastore.
+  * [dvalv](https://hg.sr.ht/~ser/dvalv) - A tool for en/decrypting [Valv](https://play.google.com/store/apps/details?id=se.arctosoft.vault) (also in f-droid) encrypted files.
   * [efs2](https://github.com/madflojo/efs2) - A dead-simple configuration management tool that is powered by stupid shell scripts.
   * [enumeration](https://bitbucket.org/rickb777/enumeration) - Easy enumeration code generation.
   * [fzf](https://github.com/junegunn/fzf) - A command-line fuzzy finder
@@ -237,6 +239,8 @@ If you find a project in this list that is dead or broken, please either mark it
   * [Grozilla](https://github.com/prashant-agarwala/grozilla) - File downloader utility with resume capability.
   * [JayDiff](https://github.com/yazgazan/jaydiff) - A JSON diff utility written in Go.
   * [jsonpp](http://jmhodges.github.com/jsonpp/) - A fast command line JSON pretty printer.
+  * [lbb](https://git.sr.ht/~ser/lbb) - A _fast_ CLI address book application for CardDAV servers and vcard directries.
+  * [legume](https://sr.ht/~ser/legume/) - A distributed issue tracker CLI tool based on developer code comments such as `// TODO` and `// FIXME`.
   * [lsp](https://github.com/dborzov/lsp) - A human-friendlier alternative to `ls`
   * [ltst](https://github.com/marcelpuyat/ltst) - View the latest news of your choosing right in your terminal
   * [passhash](https://github.com/gebi/passhash) - Command-line utility to create secure password hashes
@@ -247,6 +251,7 @@ If you find a project in this list that is dead or broken, please either mark it
   * [redis-view](https://github.com/dreamersdw/redis-view) - A tree like tool help you explore data structures in your redis server
   * [remote-torrent](https://github.com/brucewangno1/remote-torrent) - A simple tool for downloading Torrent remotely and retrieving files back over HTTP at full speed without ISP Torrent limitation
   * [restic](https://github.com/restic/restic) - A fast, efficient and secure backup program
+  * [rook](https://sr.ht/~ser/rook/) - A secret-tool-like minimal-dependency password manager backed by your KeePass 2.x KDBX database and with support for session secured access (on Linux).
   * [runtemplate](https://github.com/flowonyx/runtemplate) - A very simple command-line tool for executing Go templates, useful for use with `go generate`.
   * [runtemplate](https://github.com/rickb777/runtemplate) - A simple tool for executing Go templates to support generating Go code for your types.
   * [sift](https://github.com/svent/sift) - A fast and powerful open source alternative to `grep`
@@ -1263,6 +1268,7 @@ See also [SQLDrivers page](SQLDrivers).
   * [go-libshout](https://github.com/systemfreund/go-libshout) - Go bindings for libshout
   * [gompd](http://code.google.com/p/gompd/) - A client interface for the MPD (Music Player Daemon)
   * [launchpad](https://github.com/rakyll/launchpad) - A Go client for Novation Launchpad
+  * [ostui](https://git.sr.ht/~ser/ostui) - An OpenSubsonic TUI client, forked from stmps and with several additional features.
   * [portmidi](https://github.com/rakyll/portmidi) - Go bindings for libportmidi
 
 ### Networking
