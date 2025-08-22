@@ -754,6 +754,7 @@ See also [SQLDrivers page](SQLDrivers).
 
 ### Documentation
 
+  * [envdoc](https://github.com/g4s8/envdoc) - Generate documentation for environment variables from Go source files.
   * [godocdown](https://github.com/robertkrimen/godocdown) - Format package documentation (godoc) as GitHub friendly Markdown
   * [golangdoc](https://github.com/golang-china/golangdoc) - Godoc for Golang, support translate.
   * [Mango](http://code.google.com/p/mango-doc/) - Automatically generate unix man pages from Go sources
