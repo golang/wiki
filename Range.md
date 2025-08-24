@@ -28,12 +28,16 @@ for i, v := range myArray {
 
 If only one value is used on the left of a range expression, it is the 1st value in this table.
 
+<div style="overflow-x:auto;-webkit-overflow-scrolling:touch">
+
 | Range expression | 1st value | 2nd value (optional) | notes |
 |:-----------------|:----------|:---------------------|:------|
 | array or slice  a  ` [n]E `, ` *[n]E `, or ` []E `  | index    ` i  int ` |  ` a[i] `       E    |
 | string          s  string type          | index    ` i  int ` |   rune  ` int `      | range iterates over Unicode code points, not bytes |
 | map             m  ` map[K]V `              | key      ` k  K ` | value  ` m[k] `       V |
 | channel         c  chan E               | element  ` e  E ` | _none_               |
+
+</div>
 
 ## Gotchas
 
