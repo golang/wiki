@@ -358,6 +358,7 @@ or file a [PR updating the file in Github](https://github.com/golang/wiki/blob/m
   * [minus5](https://minus5.hr/) - [github](https://github.com/minus5)
   * [Mosaic Croatia d.o.o.](https://mosaic.co/)
   * [Nivas](http://www.nivas.hr/) - [github](https://github.com/nivas)
+  * [Notch](https://wearenotch.com/)
   * [Rentlio](https://rentl.io) - [github](https://github.com/rentlio)
   * [Sartura](https://www.sartura.hr/) - [github](https://github.com/sartura)
   * [SedamIT](https://www.sedamit.hr/)
