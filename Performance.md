@@ -525,35 +525,29 @@ make sense to set GOMAXPROCS to higher value even for sequential programs just
 to speed up garbage collections. However, note that number of garbage collector
 threads is currently bounded by 8.
 
-## Memory Allocator Trace
+## Memory Allocation Profiling
 
-Memory allocator traces simply dumps all memory allocation and free operations
-onto console. It's enabled with GODEBUG=allocfreetrace=1 environment variable.
-The output looks along the lines of:
+To identify where allocations occur in your code, use memory profiling.
+For benchmarks, use the `-memprofile` flag with `-memprofilerate=1` to
+capture every allocation:
 
-    tracealloc(0xc208062500, 0x100, array of parse.Node)
-    goroutine 16 [running]:
-    runtime.mallocgc(0x100, 0x3eb7c1, 0x0)
-        runtime/malloc.goc:190 +0x145 fp=0xc2080b39f8
-    runtime.growslice(0x31f840, 0xc208060700, 0x8, 0x8, 0x1, 0x0, 0x0, 0x0)
-        runtime/slice.goc:76 +0xbb fp=0xc2080b3a90
-    text/template/parse.(*Tree).parse(0xc2080820e0, 0xc208023620, 0x0, 0x0)
-        text/template/parse/parse.go:289 +0x549 fp=0xc2080b3c50
-    ...
+    $ go test -bench=. -memprofile=mem.out -memprofilerate=1
+    $ go tool pprof mem.out
 
-    tracefree(0xc208002d80, 0x120)
-    goroutine 16 [running]:
-    runtime.MSpan_Sweep(0x73b080)
-            runtime/mgc0.c:1880 +0x514 fp=0xc20804b8f0
-    runtime.MCentral_CacheSpan(0x69c858)
-            runtime/mcentral.c:48 +0x2b5 fp=0xc20804b920
-    runtime.MCache_Refill(0x737000, 0xc200000012)
-            runtime/mcache.c:78 +0x119 fp=0xc20804b950
-    ...
+The memory profile shows allocation counts and sizes per call site,
+which is useful for optimization work. Setting `-memprofilerate=1`
+ensures every allocation is recorded (see [runtime.MemProfileRate]).
 
-The trace contains address of the memory block, size, type, goroutine id and the
-stack trace. It's probably more useful for debugging, but can give very
-fine-grained info for allocation optimizations as well.
+For advanced use cases, `GODEBUG=traceallocfree=1` records allocation
+and free events in execution traces. This requires the execution tracer
+to be active (via `go test -trace` or [runtime/trace]). The trace data
+can be analyzed with `go tool trace`. Note that this produces large
+traces and is primarily intended for runtime debugging.
+
+Note: The `GODEBUG=allocfreetrace=1` option was removed in Go 1.23.
+
+[runtime.MemProfileRate]: https://pkg.go.dev/runtime#MemProfileRate
+[runtime/trace]: https://pkg.go.dev/runtime/trace
 
 ## Scheduler Trace
 
@@ -581,8 +575,8 @@ runnable goroutines. The numbers in square brackets ("[0 1 0 3]") are lengths of
 per-processor queues with runnable goroutines. Sum of lengths of global and
 local queues represents the total number of goroutines available for execution.
 
-Note: You can combine any of the tracers as
-GODEBUG=gctrace=1,allocfreetrace=1,schedtrace=1000.
+Note: You can combine the GODEBUG tracers, for example:
+GODEBUG=gctrace=1,schedtrace=1000.
 
 Note: There is also detailed scheduler trace, which you can enable with
 GODEBUG=schedtrace=1000,scheddetail=1. It prints detailed info about every
