@@ -8,6 +8,7 @@ Please keep all items in chronological order.
 
 | Name                     | Date          | Location                   | Website                       | CFP                                                                                                 |
 | ------------------------ | ------------- | -------------------------- | ----------------------------- | --------------------------------------------------------------------------------------------------- |
+| GopherCon 2026 | 2026-08-03-06 | Seattle, WA, USA | https://www.gophercon.com | |
 | GolangConf 2026          | 2026-04-20    | Moscow, Russia             | https://golangconf.ru/2026    | https://cfp.golangconf.ru/en                                                                        |
 | GopherCamp 2026          | 2026-04-23-24 | Brno, Czech Republic       | https://gophercamp.cz/        | https://sessionize.com/gophercamp/                                                                  |
 | GopherCon Singapore 2026 | 2026-05-20-22 | Singapore                  | https://2026.gophercon.sg/    | https://2026.gophercon.sg/cfp                                                                       |
