@@ -11,7 +11,6 @@ or file a [PR updating the file in Github](https://github.com/golang/wiki/blob/m
 
 ### Countries
 
-- [Africa](#africa)
 - [Angola](#angola)
 - [Argentina](#argentina)
 - [Armenia](#armenia)
@@ -25,8 +24,8 @@ or file a [PR updating the file in Github](https://github.com/golang/wiki/blob/m
 - [Canada](#canada)
 - [Chile](#chile)
 - [China](#china)
-- [Croatia](#croatia)
 - [Colombia](#colombia)
+- [Croatia](#croatia)
 - [Denmark](#denmark)
 - [Estonia](#estonia)
 - [Finland](#finland)
@@ -37,8 +36,8 @@ or file a [PR updating the file in Github](https://github.com/golang/wiki/blob/m
 - [Hungary](#hungary)
 - [India](#india)
 - [Indonesia](#indonesia)
-- [Iraq](#iraq)
 - [Iran](#iran)
+- [Iraq](#iraq)
 - [Ireland](#ireland)
 - [Israel](#israel)
 - [Italy](#italy)
@@ -48,7 +47,6 @@ or file a [PR updating the file in Github](https://github.com/golang/wiki/blob/m
 - [Lithuania](#lithuania)
 - [Malaysia](#malaysia)
 - [Mexico](#mexico)
-- [Middle-East](#middle-east)
 - [Moldova](#moldova)
 - [Morocco](#morocco)
 - [Mozambique](#mozambique)
@@ -77,16 +75,13 @@ or file a [PR updating the file in Github](https://github.com/golang/wiki/blob/m
 - [Switzerland](#switzerland)
 - [Taiwan](#taiwan)
 - [Thailand](#thailand)
+- [Tunisia](#tunisia)
 - [Turkey](#turkey)
 - [Ukraine](#ukraine)
 - [United Arab Emirates](#united-arab-emirates)
 - [United Kingdom](#united-kingdom)
 - [United States](#united-states)
 - [Vietnam](#vietnam)
-
-### Africa
-
-- [Afariat](https://afariat.com/) - Classifieds platform in Tunisia.
 
 ### Angola
 
@@ -366,6 +361,10 @@ or file a [PR updating the file in Github](https://github.com/golang/wiki/blob/m
 - [xueqiu](https://www.xueqiu.com/)
 - [Habby](https://habby.com/)
 
+### Colombia
+
+- [Wawandco](https://wawand.co) - [github](https://github.com/wawandco)
+
 ### Croatia
 
 - [Crossvallia](https://crossvallia.hr/)
@@ -382,10 +381,6 @@ or file a [PR updating the file in Github](https://github.com/golang/wiki/blob/m
 - [SedamIT](https://www.sedamit.hr/)
 - [Syntio](https://www.syntio.net/) - [github](https://github.com/syntio)
 - [Pointer](https://pointer.hr/hr/naslovna/)
-
-### Colombia
-
-- [Wawandco](https://wawand.co) - [github](https://github.com/wawandco)
 
 ### Denmark
 
@@ -677,10 +672,6 @@ or file a [PR updating the file in Github](https://github.com/golang/wiki/blob/m
 - [Ourintake](https://ourintake.my.id)
 - [Mangko](https://mangko.net)
 
-### Iraq
-
-- [eSITE](https://esite-iq.com/)
-
 ### Iran
 
 - [Iran Legal](https://www.iran-legal.com) – Legal services in Persian [GitHub](https://github.com/iranlegal/iranlegalgo)
@@ -708,6 +699,10 @@ or file a [PR updating the file in Github](https://github.com/golang/wiki/blob/m
 - [Shafa.clinic](https://Shafa.clinic/) - best medical laser service in Iran
 - [Cafe Bazaar](https://cafebazaar.ir/?l=en/) - Iranian Android marketplace
 - [Alibaba Travels Co.](https://alibaba.ir/) - [(GitHub)](https://github.com/alibaba-go) - Iranian online travel agency
+
+### Iraq
+
+- [eSITE](https://esite-iq.com/)
 
 ### Ireland
 
@@ -1025,10 +1020,6 @@ or file a [PR updating the file in Github](https://github.com/golang/wiki/blob/m
 - [Entropy](https://entropy.tech) - Ecommerce Marketing Optimization Platform.
 - [Credijusto](https://engineering.credijusto.com/) - Financial Services
 - [Tredicom](https://www.tredicom.com/) - B2B, EDI & Ecommerce Services
-
-### Middle-East
-
-- [ThoughtBox Technologies](https://www.thoughtbox.io/) - A FinTech Solution Provider
 
 ### Moldova
 
@@ -1408,6 +1399,10 @@ or file a [PR updating the file in Github](https://github.com/golang/wiki/blob/m
 - [Xcellence Corporation](http://www.xclnc.com)
 - [Zanroo](https://www.zanroo.com/)
 - [Zarewoft](https://github.com/zarewoft)
+
+### Tunisia
+
+- [Afariat](https://afariat.com/) - Classifieds platform in Tunisia.
 
 ### Turkey
 
