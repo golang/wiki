@@ -56,19 +56,3 @@ The LUCI system requires builders to run two applications which authenticate to 
 Generally, low-capacity builders only run code that's already been reviewed & submitted (post-submit testing). We only enable pre-submit testing for builders run by the Go team that have a lot of hardware available. However, the [Gomote tool](/wiki/Gomote) is available for a number of people on the Go team and in the Go community that lets them have arbitrary access to the builders for development & debugging.
 
 For paranoia reasons, you might want to run your builder in an isolated network that can't access any of your internal resources.
-
-## Coordinator Builders (legacy)
-
-This section describes the custom testing solution used previously by the Go project, prior to the migration to LUCI.
-
-Build configs (at the top) and host configs (bottom) are listed here:
-
-https://farmer.golang.org/builders
-
-A builder runs on a certain host type. (e.g. `linux-386-387` is a build type. It runs on `host-linux-kubestd`, a Kubernetes-based linux/amd64 host)
-
-They come from the file https://cs.opensource.google/go/x/build/+/master:dashboard/builders.go
-
-For design details about the coordinator, see https://go.dev/s/builderplan
-
-Information about builder machines, how many are running and their status can be found at https://farmer.golang.org/
