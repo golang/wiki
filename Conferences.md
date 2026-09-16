@@ -20,6 +20,7 @@ Please keep all items in chronological order.
 | GopherCon China 2026     | 2026-10-15-16 | Shanghai, China            | https://gophercon.com.cn/     | https://gophercon.com.cn/zh/cfp/                                                                    |
 | GopherCon Israel 2026    | 2026-10-18    | Tel Aviv, Israel           | https://www.gophercon.org.il/ |                                                                                                     |
 | GoLab                    | 2026-11-01-03 | Bologna, Italy             | https://golab.io/             |                                                                                                     |
+| GopherCon Japan 2027     | 2027-02-13-14 | Tokyo, Japan               | https://gophercon.jp/2027/  | https://gophercon.jp/2027/cfp/   |                                                                                                     |
 
 ## Archives
 
