@@ -29,7 +29,7 @@ and label them with `website`.
 ## Updating contents
 
 Before making changes, ensure familiarity with the code review process outlined in
-the official [Contribution Guide](/doc/contribute).
+the official [Contribution Guide](https://go.dev/doc/contribute).
 
 ### Sending a trivial change
 
@@ -37,12 +37,12 @@ For minor updates such as fixing typos and adding missing links, you can use
 the [GitHub flow](https://docs.github.com/en/get-started/using-github/github-flow).
 Make edits from the [GitHub repo](https://github.com/golang/wiki) and open a GitHub pull request as you normally would.
 
-Additional information is available at [Sending a change via GitHub](/doc/contribute#sending_a_change_github).
+Additional information is available at [Sending a change via GitHub](https://go.dev/doc/contribute#sending_a_change_github).
 
 ### Sending a non-trivial change
 
 For larger changes, consider sending your change through Gerrit following the instructions provided in
-[Sending a change via Gerrit](/doc/contribute#sending_a_change_gerrit).
+[Sending a change via Gerrit](https://go.dev/doc/contribute#sending_a_change_gerrit).
 
 The canonical repository for wiki content is located at `go.googlesource.com/wiki`.
 
