@@ -43,3 +43,9 @@ gopherbot is capable of opening backport issues according to [MinorReleases](/wi
 The keywords are `@gopherbot`, `backport`, `please` and optionally the release. They can be anywhere in the comment. If no release is mentioned issues are opened for the two past releases. The entire message is quoted in the new issue, so please include a rationale.
 
 (Note that currently only the first backport command on an issue is executed. https://go.dev/issues/25574)
+
+## Links
+
+* @gopherbot on GitHub - https://github.com/gopherbot
+* repository - https://github.com/golang/build/tree/master/cmd/gopherbot
+* open issues - https://github.com/golang/go/issues?q=gopherbot%20in%3Atitle%20state%3Aopen
