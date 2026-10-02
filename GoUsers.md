@@ -1915,6 +1915,7 @@ or file a [PR updating the file in Github](https://github.com/golang/wiki/blob/m
 - [Ticketmaster](https://www.ticketmaster.com/) - [github](https://github.com/ticketmaster?q=&type=&language=go)
 - [Timehop](http://timehop.com/) - [blog](https://medium.com/building-timehop/why-timehop-chose-go-to-replace-our-rails-app-2855ea1912d)
 - [TinkerCad](http://tinkercad.com/)
+- * [TIGSweepstakes]( https://www.tigsweepstakes.com/) - Sweepstakes Software development company.
 - [Toggl](http://www.toggl.com) - [blog](http://blog.toggl.com/2012/09/moving-to-go/)
 - [Torbit ](http://www.torbit.com) - [blog](http://torbit.com/blog/2013/02/19/big-data-at-torbit/)
 - [Total Care Auto](http://www.totalcareauto.com/)
