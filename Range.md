@@ -6,7 +6,7 @@ Spec: https://go.dev/ref/spec#For_statements
 
 ## Summary
 
-A range clause provides a way to iterate over an array, slice, string, map, or channel.
+A range clause provides a way to iterate over an array, slice, string, map, channel, integer, or function.
 
 ## Example
 
@@ -22,18 +22,32 @@ for v := range myChannel {
 for i, v := range myArray {
 	log.Printf("array value at [%d]=%v", i, v)
 }
+
+// Range over integer (Go 1.23+)
+for i := range myInteger {
+	log.Printf("i=%d", i) // 0, 1, ..., myInteger-1
+}
+
+// Range over function (Go 1.23+)
+for k, v := range myIter {
+	log.Printf("key=%v, value=%v", k, v)
+}
 ```
 
 ## Reference
 
 If only one value is used on the left of a range expression, it is the 1st value in this table.
 
-| Range expression                           | 1st value      | 2nd value (optional) | notes                                              |
-| :----------------------------------------- | :------------- | :------------------- | :------------------------------------------------- |
-| array or slice a `[n]E`, `*[n]E`, or `[]E` | index `i  int` | `a[i]` E             |
-| string s string type                       | index `i  int` | rune `int`           | range iterates over Unicode code points, not bytes |
-| map m `map[K]V`                            | key `k  K`     | value `m[k]` V       |
-| channel c chan E                           | element `e  E` | _none_               |
+| Range expression                             | 1st value      | 2nd value (optional) | notes                                                                    |
+| :------------------------------------------- | :------------- | :------------------- | :----------------------------------------------------------------------- |
+| array or slice a `[n]E`, `*[n]E`, or `[]E`   | index `i  int` | `a[i]` E             |                                                                          |
+| string s string type                         | index `i  int` | rune `int`           | range iterates over Unicode code points, not bytes                       |
+| map m `map[K]V`                              | key `k  K`     | value `m[k]` V       |                                                                          |
+| channel c `chan E`, `<-chan E`               | element `e  E` | _none_               |                                                                          |
+| integer value n integer type, or untyped int | value `i  T`   | _none_               | `T` is the type of `n`. If n <= 0, the loop does not run any iterations. |
+| function, 0 values f `func(func() bool)`     | _none_         | _none_               |                                                                          |
+| function, 1 value f `func(func(V) bool)`     | value `v  V`   | _none_               |                                                                          |
+| function, 2 values f `func(func(K, V) bool)` | key `k  K`     | value `v  V`         |                                                                          |
 
 ## Gotchas
 
