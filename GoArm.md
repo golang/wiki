@@ -165,7 +165,7 @@ Go version weekly.2012-03-27 +645947213cac, with timeout and GOARM 7 patches htt
 
 Successfully installed and run SVGo via go get github.com/ajstarks/svgo, tested with goplay:
 
-![http://farm8.staticflickr.com/7139/7451061716_fbb585c55f.jpg](http://farm8.staticflickr.com/7139/7451061716_fbb585c55f.jpg)
+![https://farm8.staticflickr.com/7139/7451061716_fbb585c55f.jpg](https://farm8.staticflickr.com/7139/7451061716_fbb585c55f.jpg)
 
 Division benchmark via http://codereview.appspot.com/6258067:
 
