@@ -557,6 +557,7 @@ or file a [PR updating the file in Github](https://github.com/golang/wiki/blob/m
 - [Mindbowser](https://mindbowser.com/)
 - [Mindship](https://www.mindship.io)
 - [Myntra](https://www.myntra.com/)
+- [Mypincode](https://mypincode.live)
 - [Nazara Games](https://www.nazara.com/)
 - [Noticeboard](https://www.noticeboard.tech/)
 - [teckinside](https://teckinside.com/)
