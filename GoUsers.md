@@ -557,7 +557,7 @@ or file a [PR updating the file in Github](https://github.com/golang/wiki/blob/m
 - [Mindbowser](http://mindbowser.com/)
 - [Mindship](http://www.mindship.io)
 - [Myntra](https://www.myntra.com/)
-- [Mypincode - current location pincode finder](https://mypincode.live)
+- [Mypincode](https://mypincode.live)
 - [Nazara Games](https://www.nazara.com/)
 - [Noticeboard](https://www.noticeboard.tech/)
 - [teckinside](http://teckinside.com/)
