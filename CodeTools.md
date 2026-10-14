@@ -28,6 +28,7 @@ An overview of tools that will help improve your Go code
 ## Code generation, Templating and Generics
 
 - [json-to-go](https://mholt.github.io/json-to-go/) - Generate Go structs from JSON.
+- [Tool Kumar](https://tools.vikasmaur.com/tools/json-to-go) - Generate Go structs with JSON field tags in the browser without uploading documents or creating an account.
 - [Go gen](https://clipperhouse.com/gen/overview/) - Type-driven code generation (generics).
 - [gojson](https://github.com/ChimeraCoder/gojson) - Another Go struct generator.
 - [gotemplate](https://github.com/ncw/gotemplate) - Package-based templating system for Go.
