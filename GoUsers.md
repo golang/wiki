@@ -1354,6 +1354,7 @@ or file a [PR updating the file in Github](https://github.com/golang/wiki/blob/m
 - [Proton Technologies AG](https://protonmail.com)
 - [RedCarbon SA](https://redcarbon.ai/)
 - [Ricardo](https://www.ricardo.ch/)
+- [ZNIPP GmbH](https://znipp.ch) - [Culma](https://culma.eu), an end-to-end encrypted knowledge base; sync server and client backend written in Go
 
 ### Taiwan
 
