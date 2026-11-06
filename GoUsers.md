@@ -1452,6 +1452,7 @@ or file a [PR updating the file in Github](https://github.com/golang/wiki/blob/m
 ### United Arab Emirates
 
 - [Milenow](https://www.milenow.com/)
+- [Amavie](https://amavie.ai/) AI characters for chat and roleplay - Dubai
 - [PayTabs](https://paytabs.com/) Payment Gateway - Dubai
 
 ### United Kingdom
