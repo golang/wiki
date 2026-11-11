@@ -821,6 +821,12 @@ Sorted by publication date, ascending.
   - Reference (book site): https://osinet.fr/go/
   - Reference (publisher): https://www.dunod.com/sciences-techniques/langage-go-fondamentaux-du-langage
 
+- **Go avancé - Comprendre les mécanismes internes du langage**
+  - Author: Thierry Fournier
+  - Publication Date: 22 Sep 2026
+  - ISBN: 978-2822711890
+  - Reference: https://www.d-booker.fr/programmation-et-langage/837-golang-avance.html
+
 ### German
 
 - **Programmierung in Google Go** (not available for buying any more)
