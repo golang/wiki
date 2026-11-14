@@ -434,6 +434,28 @@ const instance = await WebAssembly.instantiate(wasm, wasi.getImportObject());
 wasi.start(instance);
 ```
 
+#### Browser
+
+In the browser, use [browser_wasi_shim](https://github.com/bjorn3/browser_wasi_shim) and preopen an in-memory directory as `/`:
+
+```js
+import { WASI, File, OpenFile, ConsoleStdout, PreopenDirectory } from "@bjorn3/browser_wasi_shim";
+
+const fds = [
+  new OpenFile(new File([])), // stdin
+  ConsoleStdout.lineBuffered((line) => console.log(line)), // stdout
+  ConsoleStdout.lineBuffered((line) => console.error(line)), // stderr
+  new PreopenDirectory("/", new Map()), // the guest's "/"
+];
+const wasi = new WASI(["main.wasm"], ["PWD=/"], fds, { debug: false });
+const { instance } = await WebAssembly.instantiateStreaming(fetch("main.wasm"), {
+  wasi_snapshot_preview1: wasi.wasiImport,
+});
+wasi.start(instance);
+```
+
+`debug: false` turns off the shim's per-call console logging. [go-in-browser](https://github.com/devtoolry/go-in-browser) is a complete example that also builds the Go compiler and linker for `wasip1`, so programs are compiled in the browser too.
+
 ## Other WebAssembly resources
 
 - [Awesome-Wasm](https://github.com/mbasso/awesome-wasm) - An extensive list of further Wasm resources. Not Go specific.
