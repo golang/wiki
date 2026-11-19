@@ -97,6 +97,7 @@ or file a [PR updating the file in Github](https://github.com/golang/wiki/blob/m
 - [Mercadolibre](https://www.mercadolibre.com/) - Biggest E-Commerce platform in Latam.
 - [Wilab](https://www.wilab.io/) - Industrial IoT platform.
 - [Omnia](https://www.omniasalud.com/) - Administrative systems for health organizations
+- [Siblings Software](https://siblingssoftware.com/en/software-outsourcing-company/go-development/) - Software development company with a delivery office in Córdoba; its Go engineers build REST and gRPC services, workers and observability for client platform teams.
 
 ### Armenia
 
