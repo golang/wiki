@@ -46,6 +46,7 @@ or file a [PR updating the file in Github](https://github.com/golang/wiki/blob/m
 - [Kazakhstan](#kazakhstan)
 - [Korea (South)](#korea-south)
 - [Lithuania](#lithuania)
+- [Luxembourg](#luxembourg)
 - [Malaysia](#malaysia)
 - [Mexico](#mexico)
 - [Middle-East](#middle-east)
@@ -1011,6 +1012,10 @@ or file a [PR updating the file in Github](https://github.com/golang/wiki/blob/m
 ### Lithuania
 
 - [DATA-DOG](https://github.com/DATA-DOG)
+
+### Luxembourg
+
+- [Narkis.ai](https://narkis.ai/) - AI photo studio: selfies in, a personal model, professional headshots and dating photos out. Go API (chi, pgx, goose) handles training jobs, image generation and Stripe billing
 
 ### Malaysia
 
