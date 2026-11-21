@@ -14,7 +14,7 @@ GerritBot is a tool used for importing GitHub Pull Requests (PRs) into [Gerrit](
 ## Workflow
 
 - A user can upload a GitHub PR against any of our GitHub repos just as they would with any other GitHub project that accepts PRs
-- The PR changes will then be imported by GerritBot and a message will be posted to the GitHub PR containing a link to the Gerrit review
+- The PR changes will then be imported by GerritBot and a message will be posted to the GitHub PR containing a link to the Gerrit review. Note that this message is posted using the [gopherbot](https://github.com/gopherbot) GitHub account, not a dedicated GerritBot account
 - All comments are handled within Gerrit. Any comments on the GitHub PR will be ignored
 - The PR author can continue to upload commits to the branch used by the PR in order to address feedback from Gerrit
 - Any changes to the commit message must be done by editing the title and description of the GitHub PR, and not via Gerrit or git. (See FAQ below for details).
